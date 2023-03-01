@@ -1,0 +1,173 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+ /*-----------------------------------------------------------------------------------------------
+header section*/
+
+header{
+    position:fixed;         
+    top: 0;
+    width: 100%;            /*width is important to fix the header properly*/
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+.item-logo{
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    text-decoration: underline;
+    
+}
+
+ul {
+    margin-right: 10px;
+}
+
+/*-----------------------------------------------------------------------------------------------
+Our mission section*/
+
+main{
+    margin-top: 69px;
+}
+
+section.container-mission{
+    display: flex;
+    flex-shrink: 1;
+}
+
+.container-mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url(./ressources/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom:69px;
+}
+
+.item-mission{
+    background-color: black;
+    flex: 1 1 1200px;
+}
+
+/*--------------------------------------------------------------------------------------------------
+Tea of the Month section*/
+
+.headings-tea {
+    margin-bottom: 15px;
+}
+
+.container-tea-images{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 69px;
+   
+}
+.container-tea-images img{
+    height: 200px;
+    width:  300px;
+    
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------
+Locations Section*/
+
+.container-locations{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 500px;
+    max-width: 1200px;
+
+}
+
+.heading {
+    width: 1200px;
+    height: 15px;
+    align-self: self-end;
+}
+
+.item-downtown,.item-east,.item-oakdale{
+    flex: 0 1 300px;
+    background-color: black;
+    opacity: 1.0;
+    margin: auto;
+
+}
+
+.item-east {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-downtown{
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+.item-oakdale {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.locations{ 
+    background-image: url(./ressources/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    max-width: 1200px;
+    overflow:auto;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------
+footer */
+
+footer {
+    height: 200px;
+   
+}   
+
+footer h2{
+    margin-top: 0px;
+}
+
+.copyright{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.sig{
+    text-align: end;
+    font-family: cursive;
+    font-size: 15px;
+}
+
