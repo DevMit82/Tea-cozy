@@ -19,6 +19,11 @@ header{
     background-color: black;
 }
 
+a{
+    color:seashell;
+    
+}
+
 .container-nav{
     display: flex;
     justify-content: space-between;
